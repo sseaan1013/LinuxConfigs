@@ -13,7 +13,7 @@ fi
 mkdir -p $HOME/.config/alacritty
 
 # --- Variables ---
-REPO_URL="https://github.com/sseaan1013/AlacrittyConfigs"
+REPO_URL="https://github.com/sseaan1013/LinuxConfigs.git"
 TARGET_DIR="$HOME/.config/alacritty"
 TMP_DIR="/tmp/toml_repo"
 
