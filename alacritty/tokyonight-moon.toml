@@ -35,17 +35,6 @@ magenta = '#caabff'
 cyan = '#b2ebff'
 white = '#c8d3f5'
 
-# Bright colors
-[colors.bright]
-black = '#444a73'
-red = '#ff8d94'
-green = '#c7fb6d'
-yellow = '#ffd8ab'
-blue = '#9ab8ff'
-magenta = '#caabff'
-cyan = '#b2ebff'
-white = '#c8d3f5'
-
 # Indexed Colors
 [[colors.indexed_colors]]
 index = 16
