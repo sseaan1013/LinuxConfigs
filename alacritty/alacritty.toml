@@ -15,9 +15,9 @@ opacity = 0.95
 padding = { x = 10, y = 10 }
 
 [font]
-normal = { family = "Menlo", style = "Regular" }
-bold = { family = "Menlo", style = "Bold" }
-italic = { family = "Menlo", style = "Italic" }
+normal = { family = "Monospace", style = "Regular" }
+bold = { family = "Monospace", style = "Bold" }
+italic = { family = "Monospace", style = "Italic" }
 size = 13.0
 
 [cursor]
