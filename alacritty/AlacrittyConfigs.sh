@@ -44,6 +44,9 @@ done
 
 echo "✅ Done! Configs are in $TARGET_DIR"
 
+echo fastfetch > $HOME/.bashrc
+
+
 
 
 
