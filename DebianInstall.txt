@@ -14,7 +14,8 @@ git clone "https://github.com/sseaan1013/LinuxConfigs
 chmod +x $HOME/LinuxConfigs/alacritty/CopyAlacrittyConfigs.sh
 ./$HOME/LinuxConfigs/alacritty/CopyAlacrittyConfigs.sh
 
-sudo apt i3 xorg xorg-xinit xterm
+sudo apt update && sudo apt upgrade
+sudo apt i3 xserver-xorg xinit xterm 
 sudo nano /etc/i3/config
   >change default terminal to alacritty
 
