@@ -1,0 +1,65 @@
+[colors.primary]
+background = "#3a4a5b"   # dark slate gray-blue
+foreground = "#c77d42"   # burnt orange
+dim_foreground = "#b36d38"  # slightly muted burnt orange
+bright_foreground = "#ff9f5c"  # brighter orange highlight
+
+[colors.cursor]
+text = "#3a4a5b"      # background color
+cursor = "#c77d42"    # burnt orange
+
+[colors.vi_mode_cursor]
+text = "#3a4a5b"
+cursor = "#ff9f5c"    # brighter orange for vi mode
+
+[colors.search.matches]
+foreground = "#ffffff"
+background = "#c77d42"   # orange highlight
+
+[colors.search.focused_match]
+foreground = "#ffffff"
+background = "#ff9f5c"   # brighter orange highlight
+
+[colors.footer_bar]
+foreground = "#ffffff"
+background = "#2a3642"   # darker blue-gray than background
+
+[colors.hints.start]
+foreground = "#ffffff"
+background = "#c77d42"   # burnt orange
+
+[colors.hints.end]
+foreground = "#ffffff"
+background = "#ff9f5c"   # brighter orange
+
+[colors.selection]
+text = "#ffffff"
+background = "#55697f"   # lighter slate for contrast
+
+[colors.normal]
+black   = "#2a3642"
+red     = "#d25c4b"  # warm red, pairs with orange
+green   = "#6aa56a"  # muted green
+yellow  = "#c7a84a"  # earthy yellow
+blue    = "#4a7ac7"  # slate blue
+magenta = "#a16dc7"  # dusty violet
+cyan    = "#4ac7b7"  # teal cyan
+white   = "#d0d3d7"  # light gray
+
+[colors.bright]
+black   = "#3c4c5c"
+red     = "#ff7b63"
+green   = "#8ad48a"
+yellow  = "#ffd46c"
+blue    = "#5f9cff"
+magenta = "#c78dff"
+cyan    = "#6fffe0"
+white   = "#ffffff"
+
+[[colors.indexed_colors]]
+index = 16
+color = "#ff9f5c"   # extra bright orange
+
+[[colors.indexed_colors]]
+index = 17
+color = "#d25c4b"   # extra warm red
