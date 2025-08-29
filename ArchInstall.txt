@@ -1,5 +1,15 @@
 My arch desktop setup
-#>>find net interface<<
+
+lsblk
+cfdisk
+  >format the freespace 
+  /boot/efi
+    512 MiB
+    fat32
+  /
+    199GiB
+    ext4
+
 ip link
 
 #Connect to the internet (Bare metal install)
@@ -45,3 +55,7 @@ if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
 fi
 
 sudo reboot
+
+
+#make sure cofigured for sleep modenot hibernate with no swap
+
