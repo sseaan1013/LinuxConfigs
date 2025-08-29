@@ -54,6 +54,28 @@ if [[ -z $DISPLAY && $XDG_VTNR -eq 1 ]]; then
   exec startx
 fi
 
+sudo pacman -S nvidia nvidia-utils nvidia-settings
+xrandr
+  >HDMI
+  >eDP-1
+xrandr --output HDMI-1 --auto --right-of eDP-1
+
+Create /etc/X11/xorg.conf.d/10-monitor.con
+Section "Monitor"
+    Identifier "HDMI-1"
+    Option "PreferredMode" "1920x1080"
+EndSection
+
+Section "Screen"
+    Identifier "Screen0"
+    Device "NVIDIA"
+    Monitor "HDMI-1"
+EndSection
+
+sudo nano /etc/i3/config
+exec --no-startup-id xrandr --output HDMI-1 --auto --right-of eDP-1 
+
+
 sudo reboot
 
 
