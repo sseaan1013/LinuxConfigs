@@ -1,6 +1,7 @@
 [general]
 import = [
-"~/.config/alacritty/tokyonight-moon.toml",
+#"~/.config/alacritty/tokyonight-moon.toml",
+"~/.config/alacritty/burned-on-blue.toml",
 ]
 
 [env]
