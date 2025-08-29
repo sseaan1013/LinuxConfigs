@@ -1,11 +1,11 @@
 [colors.primary]
-background = "#3a4a5b"   # dark slate gray-blue
+background = "#1f1f1f"   # dark slate gray-blue
 foreground = "#c77d42"   # burnt orange
 dim_foreground = "#b36d38"  # slightly muted burnt orange
 bright_foreground = "#ff9f5c"  # brighter orange highlight
 
 [colors.cursor]
-text = "#3a4a5b"      # background color
+text = "#1f1f1f"      # background color
 cursor = "#c77d42"    # burnt orange
 
 [colors.vi_mode_cursor]
