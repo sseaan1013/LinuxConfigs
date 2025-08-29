@@ -18,6 +18,7 @@ sudo apt update && sudo apt upgrade
 sudo apt i3 xserver-xorg xinit xterm 
 sudo nano /etc/i3/config
   >change default terminal to alacritty
+  exec --no-startup-id xrandr --output <InsertNameOfDisplay> --mode 1920x1080
 
 touch $HOME/.xinitrc
 nano touch $HOME/.xinitrc
