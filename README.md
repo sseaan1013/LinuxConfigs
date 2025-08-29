@@ -2,19 +2,19 @@ My arch desktop setup
 
 sudo pacman -Sy archinstall
 archinstall
-  >curl
-  >alacritty
-  >git
-  >nano
+  1 curl
+  2 alacritty
+  3 git
+  4 nano
 
 git clone "https://github.com/sseaan1013/LinuxConfigs
 chmod +x $HOME/LinuxConfigs/alacritty/CopyAlacrittyConfigs.sh
 ./$HOME/LinuxConfigs/alacritty/CopyAlacrittyConfigs.sh
 
 curl -fsSL www.christitus.com/linux | sh
-  >brave
-  >neovim
-  >fastfetch
+  1 brave
+  2 neovim
+  3 fastfetch
 
 sudo pacman -S i3 xorg xorg-xinit xterm
 sudo nano /etc/i3/config
