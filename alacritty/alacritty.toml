@@ -19,7 +19,7 @@ padding = { x = 10, y = 10 }
 normal = { family = "Monospace", style = "Regular" }
 bold = { family = "Monospace", style = "Bold" }
 italic = { family = "Monospace", style = "Italic" }
-size = 13.0
+size = 11.5
 
 [cursor]
 style = { shape = "Beam", blinking = "Off" }
