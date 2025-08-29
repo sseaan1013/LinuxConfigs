@@ -1,4 +1,15 @@
 My arch desktop setup
+#>>find net interface<<
+ip link
+
+#Connect to the internet (Bare metal install)
+iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect <SSID>
+exit
+ping archlinux.org 
 
 sudo pacman -Sy archinstall
 archinstall
