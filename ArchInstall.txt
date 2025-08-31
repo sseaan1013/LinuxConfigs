@@ -79,5 +79,5 @@ exec --no-startup-id xrandr --output HDMI-1 --auto --right-of eDP-1
 sudo reboot
 
 
-#make sure cofigured for sleep modenot hibernate with no swap
+#make sure cofigured for sleep mode not hibernate with no swap
 
