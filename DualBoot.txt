@@ -1,0 +1,41 @@
+nvme01: 1TB
+  Windows: 600GiB
+  Linux: 300GiB
+  EFI bootloader: 512MB
+
+Windows 10
+
+
+
+Arch setup
+
+lsblk
+cfdisk
+  >format the freespace 
+  /boot/efi
+    512 MiB
+    fat32
+  /
+    350GiB
+    ext4
+
+ip link
+
+#Connect to the internet (Bare metal install)
+iwctl
+device list
+station wlan0 scan
+station wlan0 get-networks
+station wlan0 connect <SSID>
+exit
+ping archlinux.org 
+
+sudo pacman -Sy archinstall
+archinstall
+  packages:
+    sway
+    wayland
+    waybar
+    Hurmit Nerd Font
+    brave
+    
